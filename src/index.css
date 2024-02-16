@@ -1,0 +1,68 @@
+body {
+  background-color : #444751;
+  margin:0;
+  color:white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container img {
+  width:150px;
+}
+
+.container.cards {
+  justify-content: space-evenly;
+  /* align-items:stretch; */
+}
+.card {
+  border-radius: 10px;
+  border:solid 1px white;
+  padding:40px;
+  display: flex;
+  align-items:center;
+  background: linear-gradient(#63636e, #3e3f48);
+  -webkit-box-shadow: 0px 9px 19px -3px #000000; 
+  box-shadow: 0px 9px 19px -3px #000000;
+}
+
+.box-shadow
+{
+-webkit-box-shadow: 0px 9px 19px -3px #000000; 
+box-shadow: 0px 9px 19px -3px #000000;
+}
+
+Tag {
+  font-weight: 300;
+}
+
+.bannerCompany {
+  align-items: center;
+}
+
+.bannerCompany div{
+  text-transform: uppercase;
+  width:150px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .2rem;
+}
+
+.page404 {
+  /* display: flex;
+  align-items: center; */
+  text-align:center;
+}
+
+
+.banner {
+  height:250px;
+}
+.banner img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  width:100%;
+}
